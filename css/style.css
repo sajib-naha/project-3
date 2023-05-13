@@ -1,0 +1,529 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.2em;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	float: left;
+	padding: 15px 0px 120px;
+	background: url("../images/project-3-bi-1.png") center top no-repeat;
+	background-size: cover;
+}
+.header .logo{
+	width: 90%;
+	padding: 10px 0px;
+	mar1px 0px 0px;
+}
+.header .menu{
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: right;
+	text-transform: capitalize;
+}
+.header .menu ul{
+	width: 100%;
+}
+.header .menu ul li{
+	display: inline-block;
+	list-style: none;
+}
+.header .menu ul li a{
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #716c53;
+	margin: 30px 0px 0px 60px;
+	font-family: 'Poppins', sans-serif;
+}
+.header .menu ul li a:focus{
+	color: #f5f5f5;
+}
+.header h1{
+	font-size: 80px;
+	font-weight: 900;
+	color: #716c53;
+	padding: 140px 0px 0px 30px;
+	text-transform: uppercase;
+	line-height: 1.4em;
+}
+.header p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #716c53;
+	padding: 10px 0px 0px 30px;
+}
+.header .btn-1{
+    margin: 20px 0px 0px 35px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 8px 60px 10px;
+    color: #fff;
+    background: #716c53;
+    border: 1px solid #716c53;
+}
+.header .btn-1:hover{
+	color: #716c53;
+    background: #eee2b5;
+    transition: 1s;
+    border: 1px solid #eee2b5;
+}
+.header .btn-1:focus{
+	color: #716c53;
+    background: #eee2b5;
+    border: 1px solid #eee2b5;
+}
+.body{
+	width: 100%;
+	float: left;
+	padding: 15px 0px 20px;
+	background: url("../images/project-3-bi-2.png") center top no-repeat;
+	background-size: cover;
+}
+.body .banner{
+	width: 100%;
+}
+.body .banner h2{
+	font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 100px 0px 30px;
+    color: #716c53;
+    text-align: center;
+}
+.body .banner p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #716c53;
+	text-align: center;
+	padding: 0px 0px 40px;
+
+}
+.body .feature{
+	width: 100%;
+	padding: 60px 0px 120px;
+}
+.body .feature .inner-feature{
+	width: 70%;
+	padding: 20px 20px;
+	margin: 30px 0px 0px;
+}
+.body .feature .inner-feature img{
+	width: 65%;
+	display: block;
+	margin: 0px auto;
+}
+.body .feature .inner-feature h4{
+	font-size: 27px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0px 10px;
+    color: #716c53;
+    text-align: center;
+}
+.body .feature .inner-feature p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #716c53;
+	text-align: center;
+	margin: 10px 0px 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.body .banner-2{
+	width: 100%;
+}
+
+.banner-2 h2{
+	font-size: 50px;
+	font-weight: 700;
+	color: #716c53;
+	padding: 140px 0px 0px 30px;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	margin: 70px 0px 10px;
+}
+.banner-2 p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #716c53;
+	padding: 10px 0px 0px 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.banner-2 .btn-1{
+    margin: 30px 0px 0px 35px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 8px 60px 10px;
+    color: #fff;
+    background: #716c53;
+    border: 1px solid #716c53;
+}
+.banner-2 .btn-1:hover{
+	color: #716c53;
+    background: #eee2b5;
+    transition: 1s;
+    border: 1px solid #eee2b5;
+}
+.banner-2 .btn-1:focus{
+	color: #716c53;
+    background: #eee2b5;
+    border: 1px solid #eee2b5;
+}
+.body .banner-3{
+	width: 100%;
+}
+.banner-3 h2{
+	font-size: 50px;
+	font-weight: 700;
+	color: #716c53;
+	padding: 140px 0px 0px 30px;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	margin: 400px 0px 10px;
+}
+.banner-3 p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #716c53;
+	padding: 10px 0px 0px 30px;
+}
+.banner-3 .btn-1{
+    margin: 30px 0px 0px 35px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 8px 60px 10px;
+    color: #fff;
+    background: #716c53;
+    border: 1px solid #716c53;
+}
+.banner-3 .btn-1:hover{
+	color: #716c53;
+    background: #eee2b5;
+    transition: 1s;
+    border: 1px solid #eee2b5;
+}
+.banner-3 .btn-1:focus{
+	color: #716c53;
+    background: #eee2b5;
+    border: 1px solid #eee2b5;
+}
+.body .banner-4{
+	width: 100%;
+}
+.body .banner-4 h2{
+	font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 100px 0px 30px;
+    margin: 250px 0px 0px;
+    color: #716c53;
+    text-align: center;
+}
+.body .banner-4 p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #716c53;
+	text-align: center;
+	padding: 0px 0px 40px;
+	margin: 0px 0px 120px;
+
+}
+.body .feature-2{
+	width: 100%;
+	float: left;
+	padding: 30px 0px 30px;
+}
+.body .feature-2 .inner-feature-1{
+	width: 106%;
+	padding: 5px;
+	border-right: 2px dashed #716c53;
+}
+.body .feature-2 .inner-feature-1 h1{
+	font-size: 100px;
+	font-weight: 700;
+	color: #716c53;
+	text-align: center;
+}
+.body .feature-2 .inner-feature-1 h3{
+	font-size: 35px;
+	font-weight: 600;
+	color: #716c53;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.body .feature-2 .inner-feature-2{
+	width: 106%;
+	padding: 5px;
+}
+.body .feature-2 .inner-feature-2 h1{
+	font-size: 100px;
+	font-weight: 700;
+	color: #716c53;
+	text-align: center;
+}
+.body .feature-2 .inner-feature-2 h3{
+	font-size: 35px;
+	font-weight: 600;
+	color: #716c53;
+	text-transform: uppercase;
+	text-align: center;
+}
+.body .feature-2 .inner-feature-3{
+	width: 106%;
+	padding: 5px;
+	border-left: 2px dashed #716c53;
+}
+.body .feature-2 .inner-feature-3 h1{
+	font-size: 100px;
+	font-weight: 700;
+	color: #716c53;
+	text-align: center;
+}
+.body .feature-2 .inner-feature-3 h3{
+	font-size: 35px;
+	font-weight: 600;
+	color: #716c53;
+	text-transform: uppercase;
+	text-align: center;
+}
+.body .banner-5{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 60px;
+}
+.body .banner-5 h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #716c53;
+    text-transform: uppercase;
+}
+.body .banner-5 h5{
+	font-size: 28px;
+	font-weight: 600;
+	color: #716c53;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px 0px 20px;
+}
+.body .banner-5 img{
+	display: block;
+	padding: 70px;
+	background: #f5f1e4;
+	margin: 0px auto;
+}
+.body .banner-5 h6{
+	font-size: 28px;
+	font-weight: 600;
+	color: #716c53;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px 0px 20px;
+}
+.body .banner-5 p{
+	font-size: 20px;
+    font-weight: 400;
+    color: #716c53;
+    text-align: center;
+    margin: 0px;
+}
+.banner-5 .btn-1{
+    margin: 10px 0px 0px 92px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 8px 60px 10px;
+   text-align: center;
+    color: #fff;
+    background: #716c53;
+    border: 1px solid #716c53;
+}
+.banner-5 .btn-1:hover{
+	color: #716c53;
+    background: #eee2b5;
+    transition: 1s;
+    border: 1px solid #eee2b5;
+}
+.banner-5 .btn-1:focus{
+	color: #716c53;
+    background: #eee2b5;
+    border: 1px solid #eee2b5;
+}
+.body .banner-6{
+	width: 100%;
+	float: left;
+	padding: 30px 0px 60px;
+}
+.body .banner-6 p{
+	font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin: 400px 0px 10px;
+    font-weight: 400;
+}
+.body .banner-6 h4{
+	font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.body .banner-7{
+	width: 100%;
+	display: block;
+	float: left;
+}
+.body .banner-7 h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    margin:240px 0px 0px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+.body .banner-7 h5{
+	font-size: 30px;
+	font-weight: 400;
+	color: #000;
+	margin: 10px 0px 80px 0px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+}
+.body .banner-7 .form-control{
+	width: 30%;
+	display: block;
+	float: left;
+	font-size: 16px;
+	margin: 0px 0px 0px 385px;
+	border: 1px solid #fff;
+	border-radius: 0px;
+	background: #fff;
+	color: #303030;
+	padding: 12px 20px;
+	font-family: 'Nunito', sans-serif;
+}
+.body .banner-7 .form-control:focus{
+	box-shadow: none;
+	border: 1px solid #fff;
+}
+.body .banner-7 .btn-1{
+	width: 10%;
+	font-size: 16px;
+	font-weight: 600;
+	border: 1px solid #222222;
+	border-radius: 0px;
+	background: #222222;
+	color: #fff;
+	margin: 0px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+.body .banner-7 .btn-1:hover{
+	background: #9d832f;
+	border: 1px solid #9d832f;
+	color: #ffc200;
+}
+.body .banner-7 .btn-1:focus{
+	background: #9d832f;
+	border: 1px solid #9d832f;
+	color: #ffc200;
+}
+.body .banner-7 p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #000;
+	margin: 30px 0px 60px 0px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 100px 40px;
+	background: #303030;
+}
+.footer .inner-footer{
+	width: 100%;
+	float: left;
+	padding: 0px 40px;
+}
+.footer .inner-footer ul{
+	width: 100%;
+	margin: 0px 0px 0px -30px;
+}
+.footer .inner-footer p{
+	font-size: 18px;
+	line-height: 1.7em;
+	margin: 20px 0px 10px;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+}
+.footer .inner-footer li{
+	display: inline-block;
+	list-style: none;
+}
+.footer .inner-footer li a{
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	margin: 20px 15px 20px 0px;
+	font-family: 'Nunito', sans-serif;
+}
+.footer .inner-footer-2{
+	width: 100%;
+	float: left;
+	padding: 0px 20px;
+}
+.footer .inner-footer-2 h5{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	width: 400;
+	color: #fff;
+	margin: 10px 0px 10px;
+	text-transform: uppercase;
+}
+.footer .inner-footer-2 ul{
+	width: 100%;
+	margin: 0px 0px 0px -30px;
+}
+.footer .inner-footer-2 li{
+	display: block;
+	list-style: none;
+}
+.footer .inner-footer-2 li a{
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	margin: 20px 15px 0px 0px;
+	text-transform: capitalize;
+	font-family: 'Nunito', sans-serif;
+}
